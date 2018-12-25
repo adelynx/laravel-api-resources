@@ -1,0 +1,45 @@
+{
+    "name": "adelynx/laravel-api-resources",
+    "description": "Manage your resources maintaining API versioning",
+    "homepage": "https://github.com/adelynx/laravel-api-resources",
+    "license": "MIT",
+    "keywords": ["laravel", "api"],
+    "authors": [
+        {
+            "name": "Adel KEDJOUR",
+            "email": "contact@adelkedjour.com"
+        }
+    ],
+    "require": {
+      "php": "^7.1.3",
+      "illuminate/support": "5.7.*",
+      "illuminate/http": "5.7.*"
+    },
+    "require-dev": {
+      "orchestra/testbench": "~3",
+      "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "adelynx\\APIResources\\": "src/"
+        },
+        "files": [
+            "src/Helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "adelynx\\APIResources\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "adelynx\\APIResources\\APIResourcesServiceProvider"
+            ],
+            "aliases": {
+                "APIResource": "adelynx\\APIResources\\Facades\\APIResource"
+            }
+        }
+    }
+}
