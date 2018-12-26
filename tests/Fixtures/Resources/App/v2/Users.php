@@ -1,6 +1,6 @@
 <?php
 
-namespace adelynx\APIResources\Tests\Fixtures\Resources\App\v2;
+namespace Adelynx\APIResources\Tests\Fixtures\Resources\App\v2;
 
 use Illuminate\Http\Resources\Json\ResourceCollection;
 

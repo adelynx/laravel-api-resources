@@ -1,9 +1,9 @@
 <?php
 
-namespace adelynx\APIResources\Middleware;
+namespace Adelynx\APIResources\Middleware;
 
 use Closure;
-use adelynx\APIResources\Facades\APIResource;
+use Adelynx\APIResources\Facades\APIResource;
 
 class APIversion
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace adelynx\APIResources;
+namespace Adelynx\APIResources;
 
 use Illuminate\Support\ServiceProvider;
 

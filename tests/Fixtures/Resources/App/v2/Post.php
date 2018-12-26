@@ -1,8 +1,8 @@
 <?php
 
-namespace adelynx\APIResources\Tests\Fixtures\Resources\App\v2;
+namespace Adelynx\APIResources\Tests\Fixtures\Resources\App\v2;
 
-use adelynx\APIResources\Tests\Fixtures\Arrayable;
+use Adelynx\APIResources\Tests\Fixtures\Arrayable;
 use Illuminate\Http\Resources\Json\Resource;
 
 class Post extends Resource implements Arrayable

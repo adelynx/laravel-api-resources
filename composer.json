@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "adelynx\\APIResources\\": "src/"
+            "Adelynx\\APIResources\\": "src/"
         },
         "files": [
             "src/Helpers.php"
@@ -29,16 +29,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "adelynx\\APIResources\\Tests\\": "tests/"
+            "Adelynx\\APIResources\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "adelynx\\APIResources\\APIResourcesServiceProvider"
+                "Adelynx\\APIResources\\APIResourcesServiceProvider"
             ],
             "aliases": {
-                "APIResource": "adelynx\\APIResources\\Facades\\APIResource"
+                "APIResource": "Adelynx\\APIResources\\Facades\\APIResource"
             }
         }
     }

@@ -1,11 +1,11 @@
 <?php
 
-namespace adelynx\APIResources\Tests;
+namespace Adelynx\APIResources\Tests;
 
-use adelynx\APIResources\Facades\APIResource as APIResourceFacade;
-use adelynx\APIResources\APIResourceManager;
-use adelynx\APIResources\APIResource;
-use adelynx\APIResources\Exceptions\ResourceNotFoundException;
+use Adelynx\APIResources\Facades\APIResource as APIResourceFacade;
+use Adelynx\APIResources\APIResourceManager;
+use Adelynx\APIResources\APIResource;
+use Adelynx\APIResources\Exceptions\ResourceNotFoundException;
 
 class APIResourceTest extends TestCase
 {
@@ -38,7 +38,7 @@ class APIResourceTest extends TestCase
 
         $resource = api_resource('App\User');
         $this->assertInstanceOf(APIResource::class, $resource);
-        $this->assertAttributeEquals('\adelynx\APIResources\Tests\Fixtures\Resources\App\v2\User', 'path', $resource);
+        $this->assertAttributeEquals('\Adelynx\APIResources\Tests\Fixtures\Resources\App\v2\User', 'path', $resource);
     }
 
     public function test_returns_resource()
@@ -74,7 +74,7 @@ class APIResourceTest extends TestCase
         $this->assertAttributeEquals(1, 'current', $resourceManager);
 
         $resource = $resourceManager->resolve('App\Post');
-        $this->assertAttributeEquals('\adelynx\APIResources\Tests\Fixtures\Resources\App\v2\Post', 'path', $resource);
+        $this->assertAttributeEquals('\Adelynx\APIResources\Tests\Fixtures\Resources\App\v2\Post', 'path', $resource);
     }
 
     public function test_fails_if_no_fallback()

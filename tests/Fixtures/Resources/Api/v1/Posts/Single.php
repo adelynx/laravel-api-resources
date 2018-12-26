@@ -1,8 +1,8 @@
 <?php
 
-namespace adelynx\APIResources\Tests\Fixtures\Resources\Api\v1\Posts;
+namespace Adelynx\APIResources\Tests\Fixtures\Resources\Api\v1\Posts;
 
-use adelynx\APIResources\Tests\Fixtures\Arrayable;
+use Adelynx\APIResources\Tests\Fixtures\Arrayable;
 use Illuminate\Http\Resources\Json\Resource;
 
 class Single extends Resource implements Arrayable

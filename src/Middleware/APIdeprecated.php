@@ -1,8 +1,8 @@
 <?php
 
-namespace adelynx\APIResources\Middleware;
+namespace Adelynx\APIResources\Middleware;
 
-use adelynx\APIResources\Exceptions\APIDeprecatedException;
+use Adelynx\APIResources\Exceptions\APIDeprecatedException;
 
 class APIdeprecated
 {
