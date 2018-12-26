@@ -35,7 +35,7 @@ return [
     |
      */
 
-    'resources_path' => 'adelynx\APIResources\Tests\Fixtures\Resources',
+    'resources_path' => 'Adelynx\APIResources\Tests\Fixtures\Resources',
 
     /*
     |--------------------------------------------------------------------------

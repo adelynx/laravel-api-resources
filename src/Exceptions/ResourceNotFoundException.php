@@ -1,6 +1,6 @@
 <?php
 
-namespace adelynx\APIResources\Exceptions;
+namespace Adelynx\APIResources\Exceptions;
 
 class ResourceNotFoundException extends \Exception
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace adelynx\APIResources\Tests;
+namespace Adelynx\APIResources\Tests;
 
-use adelynx\APIResources\APIResourceManager;
-use adelynx\APIResources\Facades\APIResource as APIResourceFacade;
+use Adelynx\APIResources\APIResourceManager;
+use Adelynx\APIResources\Facades\APIResource as APIResourceFacade;
 
 class BasicTest extends TestCase
 {

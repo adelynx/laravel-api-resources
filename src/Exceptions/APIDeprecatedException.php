@@ -1,6 +1,6 @@
 <?php
 
-namespace adelynx\APIResources\Exceptions;
+namespace Adelynx\APIResources\Exceptions;
 
 use Illuminate\Http\Response as IlluminateResponse;
 

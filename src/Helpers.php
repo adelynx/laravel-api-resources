@@ -1,6 +1,6 @@
 <?php
 
-use adelynx\APIResources\Facades\APIResource;
+use Adelynx\APIResources\Facades\APIResource;
 
 if (!function_exists('api_resource')) {
     /**
@@ -8,7 +8,7 @@ if (!function_exists('api_resource')) {
      *
      * @param string $classname
      *
-     * @return \adelynx\APIResources\APIResource
+     * @return \Adelynx\APIResources\APIResource
      */
     function api_resource($classname)
     {

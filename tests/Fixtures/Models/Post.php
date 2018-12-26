@@ -1,8 +1,8 @@
 <?php
 
-namespace adelynx\APIResources\Tests\Fixtures\Models;
+namespace Adelynx\APIResources\Tests\Fixtures\Models;
 
-use adelynx\APIResources\Tests\Fixtures\Arrayable;
+use Adelynx\APIResources\Tests\Fixtures\Arrayable;
 
 class Post implements Arrayable
 {

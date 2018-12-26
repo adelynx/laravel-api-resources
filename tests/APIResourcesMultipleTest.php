@@ -1,8 +1,8 @@
 <?php
 
-namespace adelynx\APIResources\Tests;
+namespace Adelynx\APIResources\Tests;
 
-use adelynx\APIResources\APIResourceManager;
+use Adelynx\APIResources\APIResourceManager;
 
 class APIResourcesMultipleTest extends TestCase
 {

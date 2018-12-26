@@ -1,6 +1,6 @@
 <?php
 
-namespace adelynx\APIResources;
+namespace Adelynx\APIResources;
 
 use Exception;
 
@@ -33,7 +33,7 @@ class APIResourceManager
         $v = $this->getConfig('api.version', $name);
 
         if (!$v) {
-            throw new Exception('You must define a config(\'api\') with a latest version. Do: php artisan vendor:publish --provider="adelynx/APIResources/APIResourcesServiceProvider"');
+            throw new Exception('You must define a config(\'api\') with a latest version. Do: php artisan vendor:publish --provider="Adelynx/APIResources/APIResourcesServiceProvider"');
         }
 
         $this->latest = $v;

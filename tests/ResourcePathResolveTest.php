@@ -1,8 +1,8 @@
 <?php
 
-namespace adelynx\APIResources\Tests;
+namespace Adelynx\APIResources\Tests;
 
-use adelynx\APIResources\Facades\APIResource;
+use Adelynx\APIResources\Facades\APIResource;
 
 class ResourcePathResolveTest extends TestCase
 {

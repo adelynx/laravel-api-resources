@@ -1,9 +1,9 @@
 <?php
 
-namespace adelynx\APIResources\Tests;
+namespace Adelynx\APIResources\Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use adelynx\APIResources\APIResourcesServiceProvider;
+use Adelynx\APIResources\APIResourcesServiceProvider;
 
 abstract class TestCase extends BaseTestCase
 {

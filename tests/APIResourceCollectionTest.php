@@ -1,8 +1,8 @@
 <?php
 
-namespace adelynx\APIResources\Tests;
+namespace Adelynx\APIResources\Tests;
 
-use adelynx\APIResources\Facades\APIResource as APIResourceFacade;
+use Adelynx\APIResources\Facades\APIResource as APIResourceFacade;
 
 class APIResourceCollectionTest extends TestCase
 {

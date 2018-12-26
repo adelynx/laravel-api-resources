@@ -1,6 +1,6 @@
 <?php
 
-namespace adelynx\APIResources\Tests\Fixtures;
+namespace Adelynx\APIResources\Tests\Fixtures;
 
 interface Arrayable
 {
